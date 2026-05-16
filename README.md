@@ -2,9 +2,9 @@
 
 # swiftynotes-anylinux 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/TheRealYasri/swiftynotes-anylinux/total?logo=github&label=GitHub%20Downloads)](https://github.com/TheRealYasri/swiftynotes-anylinux/releases/latest)
-[![CI Build Status](https://github.com/TheRealYasri/swiftynotes-anylinux/actions/workflows/appimage.yml/badge.svg)](https://github.com/TheRealYasri/swiftynotes-anylinux/releases/latest)
-[![Latest Stable Release](https://img.shields.io/github/v/release/TheRealYasri/swiftynotes-anylinux)](https://github.com/TheRealYasri/swiftynotes-anylinux/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/swiftynotes-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/swiftynotes-AppImage/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/swiftynotes-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/swiftynotes-AppImage/releases/latest)
+[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/swiftynotes-AppImage)](https://github.com/pkgforge-dev/swiftynotes-AppImage/releases/latest)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/makoni/swifty-notes-gtk/refs/heads/master/data/me.spaceinbox.swiftynotes.svg" width="128" />
@@ -13,7 +13,7 @@
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/TheRealYasri/swiftynotes-anylinux/releases/latest) | [Click here](https://github.com/makoni/swifty-notes-gtk) |
+| [Click here](https://github.com/pkgforge-dev/swiftynotes-AppImage/releases/latest) | [Click here](https://github.com/makoni/swifty-notes-gtk) |
 
 </div>
 
