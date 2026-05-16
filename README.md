@@ -1,6 +1,6 @@
 <div align="center">
 
-# swiftynotes-anylinux 🐧
+# swiftynotes-AppImage 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/swiftynotes-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/swiftynotes-AppImage/releases/latest)
 [![CI Build Status](https://github.com/pkgforge-dev/swiftynotes-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/swiftynotes-AppImage/releases/latest)
