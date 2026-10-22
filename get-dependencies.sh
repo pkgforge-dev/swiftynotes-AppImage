@@ -43,19 +43,14 @@ git clone https://github.com/makoni/swifty-notes-gtk.git && (
     cp /usr/include/libspelling-1/libspelling.h Sources/CSpelling/include/
     export SWIFT_FLAGS="-Xcc -I$(pwd)/Sources/CSpelling/include"
     chmod +x packaging/release/assemble-install-root.sh
+
+    # Resolve Swift dependencies and patch swift-adwaita for newer libadwaita compatibility
+    swift package resolve || true
+    if [ -f ".build/checkouts/swift-adwaita/Sources/Adwaita/Enums.swift" ]; then
+        sed -i 's/static let none = ADW_TAB_VIEW_SHORTCUT_NONE/static let none: Self = []/g' .build/checkouts/swift-adwaita/Sources/Adwaita/Enums.swift
+        echo "Successfully patched swift-adwaita Enums.swift"
+    fi
+
     ./packaging/release/assemble-install-root.sh --prefix /usr --dest build-root
     sudo cp -rv build-root/usr/* /usr/
 )
-
-# Comment this out if you need an AUR package
-#make-aur-package PACKAGENAME
-
-# If the application needs to be manually built that has to be done down here
-
-# if you also have to make nightly releases check for DEVEL_RELEASE = 1
-#
-# if [ "${DEVEL_RELEASE-}" = 1 ]; then
-# 	nightly build steps
-# else
-# 	regular build steps
-# fi
